@@ -16,6 +16,10 @@
 		A850A1321EA071F000D8C1A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A850A1301EA071F000D8C1A0 /* LaunchScreen.storyboard */; };
 		A850A13D1EA071F000D8C1A0 /* JHSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A850A13C1EA071F000D8C1A0 /* JHSortTests.m */; };
 		A850A1481EA071F000D8C1A0 /* JHSortUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A850A1471EA071F000D8C1A0 /* JHSortUITests.m */; };
+		A89B34FC1EB2F0BB00778F4A /* LearnSort.m in Sources */ = {isa = PBXBuildFile; fileRef = A89B34FB1EB2F0BA00778F4A /* LearnSort.m */; };
+		A8B7228F1EB8877C006E3FF5 /* NSMutableArray+JHSort.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B7228E1EB8877C006E3FF5 /* NSMutableArray+JHSort.m */; };
+		A8D8B2121EC98D2B00F9EE81 /* JHHeapSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D8B2111EC98D2B00F9EE81 /* JHHeapSortViewController.m */; };
+		A8D8B2161EC994E900F9EE81 /* JHSortLineVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D8B2151EC994E900F9EE81 /* JHSortLineVIew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		A850A1431EA071F000D8C1A0 /* JHSortUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHSortUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A850A1471EA071F000D8C1A0 /* JHSortUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSortUITests.m; sourceTree = "<group>"; };
 		A850A1491EA071F000D8C1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89B34FA1EB2F0BA00778F4A /* LearnSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnSort.h; sourceTree = "<group>"; };
+		A89B34FB1EB2F0BA00778F4A /* LearnSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnSort.m; sourceTree = "<group>"; };
+		A8B7228D1EB8877C006E3FF5 /* NSMutableArray+JHSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+JHSort.h"; sourceTree = "<group>"; };
+		A8B7228E1EB8877C006E3FF5 /* NSMutableArray+JHSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+JHSort.m"; sourceTree = "<group>"; };
+		A8D8B2101EC98D2B00F9EE81 /* JHHeapSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHeapSortViewController.h; sourceTree = "<group>"; };
+		A8D8B2111EC98D2B00F9EE81 /* JHHeapSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHeapSortViewController.m; sourceTree = "<group>"; };
+		A8D8B2141EC994E900F9EE81 /* JHSortLineVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSortLineVIew.h; sourceTree = "<group>"; };
+		A8D8B2151EC994E900F9EE81 /* JHSortLineVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSortLineVIew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,11 @@
 				A850A1231EA071F000D8C1A0 /* AppDelegate.m */,
 				A850A1251EA071F000D8C1A0 /* ViewController.h */,
 				A850A1261EA071F000D8C1A0 /* ViewController.m */,
+				A8D8B2131EC9904500F9EE81 /* HeapSort */,
+				A8B7228D1EB8877C006E3FF5 /* NSMutableArray+JHSort.h */,
+				A8B7228E1EB8877C006E3FF5 /* NSMutableArray+JHSort.m */,
+				A89B34FA1EB2F0BA00778F4A /* LearnSort.h */,
+				A89B34FB1EB2F0BA00778F4A /* LearnSort.m */,
 				A850A1281EA071F000D8C1A0 /* Main.storyboard */,
 				A850A12E1EA071F000D8C1A0 /* Assets.xcassets */,
 				A850A1301EA071F000D8C1A0 /* LaunchScreen.storyboard */,
@@ -141,6 +158,17 @@
 				A850A1491EA071F000D8C1A0 /* Info.plist */,
 			);
 			path = JHSortUITests;
+			sourceTree = "<group>";
+		};
+		A8D8B2131EC9904500F9EE81 /* HeapSort */ = {
+			isa = PBXGroup;
+			children = (
+				A8D8B2101EC98D2B00F9EE81 /* JHHeapSortViewController.h */,
+				A8D8B2111EC98D2B00F9EE81 /* JHHeapSortViewController.m */,
+				A8D8B2141EC994E900F9EE81 /* JHSortLineVIew.h */,
+				A8D8B2151EC994E900F9EE81 /* JHSortLineVIew.m */,
+			);
+			name = HeapSort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +304,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D8B2161EC994E900F9EE81 /* JHSortLineVIew.m in Sources */,
 				A850A1271EA071F000D8C1A0 /* ViewController.m in Sources */,
+				A89B34FC1EB2F0BB00778F4A /* LearnSort.m in Sources */,
 				A850A12D1EA071F000D8C1A0 /* JHSort.xcdatamodeld in Sources */,
+				A8B7228F1EB8877C006E3FF5 /* NSMutableArray+JHSort.m in Sources */,
+				A8D8B2121EC98D2B00F9EE81 /* JHHeapSortViewController.m in Sources */,
 				A850A1241EA071F000D8C1A0 /* AppDelegate.m in Sources */,
 				A850A1211EA071F000D8C1A0 /* main.m in Sources */,
 			);
@@ -429,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JHSort/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SJH.JHSort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JHSort/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SJH.JHSort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,6 +545,7 @@
 				A850A14E1EA071F000D8C1A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A850A14F1EA071F000D8C1A0 /* Build configuration list for PBXNativeTarget "JHSortTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +554,7 @@
 				A850A1511EA071F000D8C1A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A850A1521EA071F000D8C1A0 /* Build configuration list for PBXNativeTarget "JHSortUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +563,7 @@
 				A850A1541EA071F000D8C1A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
